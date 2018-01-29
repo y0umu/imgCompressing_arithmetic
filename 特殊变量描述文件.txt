@@ -1,0 +1,12 @@
+变量名										说明
+NEXT_BUTTON_ENTRY_CNT						“下一步”按钮计数器
+NUM2STR_DIGITS								作为常数使用。控制num2str的最大显示位数
+LOW											算术编码时，序列中当前编码码字所在区间的左端点
+HIGH										算术编码时，序列中当前编码码字所在区间的右端点
+SOURCE_PROB									信源概率向量
+SOURCE_SYMBOL								信源符号向量
+SEQ_INDEX									输入的待编码序列对应于信源符号向量下标。这些下标组成了向量SEQ_INDEX
+LOW_RANGE									第一次划分区间时，所有区间左端点组成了向量LOW_RANGE
+HIGH_RANGE									第一次划分区间时，所有区间右端点组成了向量HIGH_RANGE
+
+NEXT_BUTTON_ENTRY_CNT NUM2STR_DIGITS LOW HIGH SOURCE_PROB SOURCE_SYMBOL SEQ_INDEX LOW_RANGE HIGH_RANGE
